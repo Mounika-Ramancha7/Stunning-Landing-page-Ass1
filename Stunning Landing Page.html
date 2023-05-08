@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/ass-stunning.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Stunning Landing Page_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Stunning Landing Page_files/style.css">
+    <link rel="icon" type="image/jpg" href="http://127.0.0.1:5500/img/favicon.png">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="http://127.0.0.1:5500/ass-stunning.html#"><img src="./Stunning Landing Page_files/stunning-logo.png" alt="Stunning Landing Page Logo"></a>
+            <nav>
+                <ul>
+                    <li><a class="active" href="http://127.0.0.1:5500/ass-stunning.html#">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/ass-stunning.html#">About</a></li>
+                    <li><a href="http://127.0.0.1:5500/ass-stunning.html#">Blog</a></li>
+                    <li><a href="http://127.0.0.1:5500/ass-stunning.html#">Jobs</a></li>
+                </ul>
+            </nav>
+
+            <a class="common-btn" href="http://127.0.0.1:5500/ass-stunning.html#">your account</a>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="banner">
+                <img src="./Stunning Landing Page_files/landing-section-image.png" alt="Landing Section Image">
+            </div>
+
+            <div class="content">
+
+                <h1>Stunning<br>Workplace.</h1>
+
+                <p>With Stunning, remote teams can organize projects, manage shifting priorities, and get work done.</p>
+
+                <div>
+                    <a href="http://127.0.0.1:5500/ass-stunning.html#" class="common-btn
+                    dark">New Account</a>
+                    <button></button>
+                    <button></button>
+
+                </div>
+
+                <ul>
+                    <li>
+                        <img class="grey" src="./Stunning Landing Page_files/tick-gray.png">
+                        <img class="blue" src="./Stunning Landing Page_files/tick-blue.png">
+                        <span class="title">Dmm Design</span>
+                        <img src="./Stunning Landing Page_files/user-pink.png">
+                        <span class="date">20 Dec</span>
+                        <span class="tag lightred"></span>
+                    </li>
+
+                    <li class="active">
+                        <img class="grey" src="./Stunning Landing Page_files/tick-gray.png">
+                        <img class="blue" src="./Stunning Landing Page_files/tick-blue.png">
+                        <span class="title">Blur animation</span>
+                        <img src="./Stunning Landing Page_files/user-orange.png">
+                        <span class="date">22 Dec</span>
+                        <span class="tag red"></span>
+                    </li>
+
+                    <li>
+                        <img class="grey" src="./Stunning Landing Page_files/tick-gray.png">
+                        <img class="blue" src="./Stunning Landing Page_files/tick-blue.png">
+                        <span class="title">Illustration</span>
+                        <img src="./Stunning Landing Page_files/user-blue.png">
+                        <span class="date">26 Dec</span>
+                        <span class="tag green"></span>
+                    </li>
+
+                    <li>
+                        <img class="grey" src="./Stunning Landing Page_files/tick-gray.png">
+                        <img class="blue" src="./Stunning Landing Page_files/tick-blue.png">
+                        <span class="title">Refunds</span>
+                        <img src="./Stunning Landing Page_files/user-red.png">
+                        <span class="date">28 Dec</span>
+                        <span class="tag lightorange"></span>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+
+        </div>
+    </main>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
